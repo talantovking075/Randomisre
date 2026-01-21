@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+    color: white;
+    list-style: none;
+    text-decoration: none; 
+}
+h1{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+.sign_up{
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: red;
+}
+.sign_up:hover{
+    background-color: rgb(147, 23, 23);
+}
+.randomizeButton{ 
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 26px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #45a049;
+}
+body{
+    background-color: rgb(24, 24, 24);
+    margin: 0;
+    padding: 0;
+}
+.card{
+    background: #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    width: 400px    ;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s;
+    transform: translateY(0);
+}
+.card img{
+    background: #000;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.card h2{
+    margin-bottom: 10px;
+}
+.card p{
+    margin: 5px 0;
+}
+
+.creator_account{
+    background: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: right;
+    padding: 30px;
+    text-align: center  ;
+    font-family: Arial, sans-serif;
+    width: 200px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    
+}
+
+.creator_account img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.creator_username{
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.creator_description, .creator_email{
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+.creator_email{
+    color: #ccc;
+}
+.all{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.login{
+    background: rgb(40, 225, 40);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;  
+}
+.pastki_qism{
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background:  black;
+    width: 100%;
+    padding: 30px 0;
+}
